@@ -1,0 +1,500 @@
+
+
+
+
+
+
+                                  ****
+                                *      *
+                               *        *
+                               *  N A S T R A N
+                               *        *
+                                *      *
+                                  ****
+
+
+                            INTEL COMPUTER SYSTEMS   
+                                 LINUX VERSION 
+
+                          SYSTEM RELEASE -  1995 ED.
+
+                                DISTRIBUTED BY
+
+         COMPUTER SOFTWARE MANAGEMENT AND INFORMATION CENTER (COSMIC)
+                 UNIVERSITY OF GEORGIA, ATHENS, GEORGIA 30602
+                 PHONE: (706)542-3265      FAX: (706)542-4807
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     2
+                                                                                                                                    
+0                                                                                                                                   
+                                                                                                         
+                                                                                                         
+                         INSTALLATION CENTER USER INFORMATION GIVEN IN THIS SECTION                      
+                                                                                                         
+                                     *********************************************                       
+                                     *                                           *                       
+                                     *  PLEASE READ THE COMMENT IN DEMO PROBLEM  *                       
+                                     *  D01002A ABOUT SYSTEM TIMING CONSTANTS    *                       
+                                     *                                           *                       
+                                     *********************************************                       
+                                                                                                         
+                         ===X=    TOP OF PAGE REQUEST IF 'X' IS REPLACED BY '='                          
+                                                                                                         
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     3
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGE 225, GINO TIME CONSTANTS ARE BEING COMPUTED
+     (SEE NASINFO FILE FOR ELIMINATION OF THESE COMPUTATIONS)
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     4
+                                                                                                                                    
+0        N A S T R A N    E X E C U T I V E    C O N T R O L    D E C K    E C H O                                                  
+0                                                                                                                                   
+                                                                                                                                    
+                                                                                                                                    
+     ID GOLAND WING                                                                  
+     SOL 3                                                                           
+     CEND                                                                            
+0*** APP  DECLARATION CARD MISSING.  DISPLACEMENT IS SELECTED BY DEFAULT
+0*** TIME  CARD MISSING. MAXIMUM EXECUTION TIME IS SET TO 5 MINUTES BY DEFAULT
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     5
+                                                                                                                                    
+0                                                                                                                                   
+0                                        C A S E    C O N T R O L   D E C K   E C H O                                               
+                 CARD                                                                                                               
+                 COUNT                                                                                                              
+                  1      MAXLINES=999999999                                                              
+                  2      METHOD = 1                                                                      
+                  3      SPC = 800                                                                       
+                  4      VECTOR(PUNCH) = ALL                                                             
+                  5      BEGIN BULK                                                                      
+
+
+                        (NO. OF UNSORTED BULK DATA CARDS READ =   201, INCLUDING   8 COMMENT CARDS)
+0*** USER INFORMATION MESSAGE 207, BULK DATA DECK IS NOT SORTED. NASTRAN WILL RE-ORDER THE INPUT DECK.
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     6
+                                                                                                                                    
+0                                                                                                                                   
+0                                                 S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                    1-        CONM2   1004    10200           1.9650                                          
+                    2-        CONM2   1008    10400           1.9650                                          
+                    3-        CONM2   1012    10600           1.9650                                          
+                    4-        CONM2   1016    10800           1.9650                                          
+                    5-        CONM2   1020    11000           0.9825                                          
+                    6-        CONM2   1204    10202           5.3398                                          
+                    7-        CONM2   1208    10402           5.3398                                          
+                    8-        CONM2   1212    10602           5.3398                                          
+                    9-        CONM2   1216    10802           5.3398                                          
+                   10-        CONM2   1220    11002           2.6699                                          
+                   11-        CQUAD4  1       1       10000   10001   10101   10100                           
+                   12-        CQUAD4  2       1       10001   10002   10102   10101                           
+                   13-        CQUAD4  3       1       10100   10101   10201   10200                           
+                   14-        CQUAD4  4       1       10101   10102   10202   10201                           
+                   15-        CQUAD4  5       1       10200   10201   10301   10300                           
+                   16-        CQUAD4  6       1       10201   10202   10302   10301                           
+                   17-        CQUAD4  7       1       10300   10301   10401   10400                           
+                   18-        CQUAD4  8       1       10301   10302   10402   10401                           
+                   19-        CQUAD4  9       1       10400   10401   10501   10500                           
+                   20-        CQUAD4  10      1       10401   10402   10502   10501                           
+                   21-        CQUAD4  11      1       10500   10501   10601   10600                           
+                   22-        CQUAD4  12      1       10501   10502   10602   10601                           
+                   23-        CQUAD4  13      1       10600   10601   10701   10700                           
+                   24-        CQUAD4  14      1       10601   10602   10702   10701                           
+                   25-        CQUAD4  15      1       10700   10701   10801   10800                           
+                   26-        CQUAD4  16      1       10701   10702   10802   10801                           
+                   27-        CQUAD4  17      1       10800   10801   10901   10900                           
+                   28-        CQUAD4  18      1       10801   10802   10902   10901                           
+                   29-        CQUAD4  19      1       10900   10901   11001   11000                           
+                   30-        CQUAD4  20      1       10901   10902   11002   11001                           
+                   31-        CQUAD4  21      1       10003   10004   10104   10103                           
+                   32-        CQUAD4  22      1       10004   10005   10105   10104                           
+                   33-        CQUAD4  23      1       10103   10104   10204   10203                           
+                   34-        CQUAD4  24      1       10104   10105   10205   10204                           
+                   35-        CQUAD4  25      1       10203   10204   10304   10303                           
+                   36-        CQUAD4  26      1       10204   10205   10305   10304                           
+                   37-        CQUAD4  27      1       10303   10304   10404   10403                           
+                   38-        CQUAD4  28      1       10304   10305   10405   10404                           
+                   39-        CQUAD4  29      1       10403   10404   10504   10503                           
+                   40-        CQUAD4  30      1       10404   10405   10505   10504                           
+                   41-        CQUAD4  31      1       10503   10504   10604   10603                           
+                   42-        CQUAD4  32      1       10504   10505   10605   10604                           
+                   43-        CQUAD4  33      1       10603   10604   10704   10703                           
+                   44-        CQUAD4  34      1       10604   10605   10705   10704                           
+                   45-        CQUAD4  35      1       10703   10704   10804   10803                           
+                   46-        CQUAD4  36      1       10704   10705   10805   10804                           
+                   47-        CQUAD4  37      1       10803   10804   10904   10903                           
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     7
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   48-        CQUAD4  38      1       10804   10805   10905   10904                           
+                   49-        CQUAD4  39      1       10903   10904   11004   11003                           
+                   50-        CQUAD4  40      1       10904   10905   11005   11004                           
+                   51-        CQUAD4  41      2       10003   10000   10100   10103                           
+                   52-        CQUAD4  42      2       10103   10100   10200   10203                           
+                   53-        CQUAD4  43      2       10203   10200   10300   10303                           
+                   54-        CQUAD4  44      2       10300   10400   10403   10303                           
+                   55-        CQUAD4  45      2       10400   10500   10503   10403                           
+                   56-        CQUAD4  46      2       10500   10600   10603   10503                           
+                   57-        CQUAD4  47      2       10600   10700   10703   10603                           
+                   58-        CQUAD4  48      2       10700   10800   10803   10703                           
+                   59-        CQUAD4  49      2       10800   10900   10903   10803                           
+                   60-        CQUAD4  50      2       10900   11000   11003   10903                           
+                   61-        CQUAD4  51      2       10002   10102   10105   10005                           
+                   62-        CQUAD4  52      2       10102   10202   10205   10105                           
+                   63-        CQUAD4  53      2       10202   10302   10305   10205                           
+                   64-        CQUAD4  54      2       10302   10402   10405   10305                           
+                   65-        CQUAD4  55      2       10402   10502   10505   10405                           
+                   66-        CQUAD4  56      2       10502   10602   10605   10505                           
+                   67-        CQUAD4  57      2       10602   10702   10705   10605                           
+                   68-        CQUAD4  58      2       10702   10802   10805   10705                           
+                   69-        CQUAD4  59      2       10802   10902   10905   10805                           
+                   70-        CQUAD4  60      2       10902   11002   11005   10905                           
+                   71-        CQUAD4  61      3       10004   10001   10101   10104                           
+                   72-        CQUAD4  62      3       10104   10101   10201   10204                           
+                   73-        CQUAD4  63      3       10204   10201   10301   10304                           
+                   74-        CQUAD4  64      3       10304   10301   10401   10404                           
+                   75-        CQUAD4  65      3       10404   10401   10501   10504                           
+                   76-        CQUAD4  66      3       10504   10501   10601   10604                           
+                   77-        CQUAD4  67      3       10604   10601   10701   10704                           
+                   78-        CQUAD4  68      3       10704   10701   10801   10804                           
+                   79-        CQUAD4  69      3       10804   10801   10901   10904                           
+                   80-        CQUAD4  70      3       10904   10901   11001   11004                           
+                   81-        CQUAD4  71      4       10003   10000   10001   10004                           
+                   82-        CQUAD4  72      4       10004   10001   10002   10005                           
+                   83-        CQUAD4  73      4       10103   10100   10101   10104                           
+                   84-        CQUAD4  74      4       10104   10101   10102   10105                           
+                   85-        CQUAD4  75      4       10203   10200   10201   10204                           
+                   86-        CQUAD4  76      4       10204   10201   10202   10205                           
+                   87-        CQUAD4  77      4       10303   10300   10301   10304                           
+                   88-        CQUAD4  78      4       10304   10301   10302   10305                           
+                   89-        CQUAD4  79      4       10403   10400   10401   10404                           
+                   90-        CQUAD4  80      4       10404   10401   10402   10405                           
+                   91-        CQUAD4  81      4       10503   10500   10501   10504                           
+                   92-        CQUAD4  82      4       10504   10501   10502   10505                           
+                   93-        CQUAD4  83      4       10603   10600   10601   10604                           
+                   94-        CQUAD4  84      4       10604   10601   10602   10605                           
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     8
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                   95-        CQUAD4  85      4       10703   10700   10701   10704                           
+                   96-        CQUAD4  86      4       10704   10701   10702   10705                           
+                   97-        CQUAD4  87      4       10803   10800   10801   10804                           
+                   98-        CQUAD4  88      4       10804   10801   10802   10805                           
+                   99-        CQUAD4  89      4       10903   10900   10901   10904                           
+                  100-        CQUAD4  90      4       10904   10901   10902   10905                           
+                  101-        CQUAD4  91      4       11003   11000   11001   11004                           
+                  102-        CQUAD4  92      4       11004   11001   11002   11005                           
+                  103-        EIGR    1       FEER    0.01                    10                      +C0N0001
+                  104-        +C0N0001MAX                                                                     
+                  105-        GRID    10000           0.0     0.0     0.166667                                
+                  106-        GRID    10001           2.0     0.0     0.166667                                
+                  107-        GRID    10002           4.0     0.0     0.166667                                
+                  108-        GRID    10003           0.0     0.0     -.166667                                
+                  109-        GRID    10004           2.0     0.0     -.166667                                
+                  110-        GRID    10005           4.0     0.0     -.166667                                
+                  111-        GRID    10100           0.0     2.0     0.166667                                
+                  112-        GRID    10101           2.0     2.0     0.166667                                
+                  113-        GRID    10102           4.0     2.0     0.166667                                
+                  114-        GRID    10103           0.0     2.0     -.166667                                
+                  115-        GRID    10104           2.0     2.0     -.166667                                
+                  116-        GRID    10105           4.0     2.0     -.166667                                
+                  117-        GRID    10200           0.0     4.0     0.166667                                
+                  118-        GRID    10201           2.0     4.0     0.166667                                
+                  119-        GRID    10202           4.0     4.0     0.166667                                
+                  120-        GRID    10203           0.0     4.0     -.166667                                
+                  121-        GRID    10204           2.0     4.0     -.166667                                
+                  122-        GRID    10205           4.0     4.0     -.166667                                
+                  123-        GRID    10300           0.0     6.0     0.166667                                
+                  124-        GRID    10301           2.0     6.0     0.166667                                
+                  125-        GRID    10302           4.0     6.0     0.166667                                
+                  126-        GRID    10303           0.0     6.0     -.166667                                
+                  127-        GRID    10304           2.0     6.0     -.166667                                
+                  128-        GRID    10305           4.0     6.0     -.166667                                
+                  129-        GRID    10400           0.0     8.0     0.166667                                
+                  130-        GRID    10401           2.0     8.0     0.166667                                
+                  131-        GRID    10402           4.0     8.0     0.166667                                
+                  132-        GRID    10403           0.0     8.0     -.166667                                
+                  133-        GRID    10404           2.0     8.0     -.166667                                
+                  134-        GRID    10405           4.0     8.0     -.166667                                
+                  135-        GRID    10500           0.0     10.0    0.166667                                
+                  136-        GRID    10501           2.0     10.0    0.166667                                
+                  137-        GRID    10502           4.0     10.0    0.166667                                
+                  138-        GRID    10503           0.0     10.0    -.166667                                
+                  139-        GRID    10504           2.0     10.0    -.166667                                
+                  140-        GRID    10505           4.0     10.0    -.166667                                
+                  141-        GRID    10600           0.0     12.0    0.166667                                
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE     9
+                                                                                                                                    
+
+                                                                                                                                    
+
+                                                  S O R T E D   B U L K    D A T A    E C H O                                       
+                     CARD                                                                                                           
+                     COUNT        ---1--- +++2+++ ---3--- +++4+++ ---5--- +++6+++ ---7--- +++8+++ ---9--- +++10+++                  
+                  142-        GRID    10601           2.0     12.0    0.166667                                
+                  143-        GRID    10602           4.0     12.0    0.166667                                
+                  144-        GRID    10603           0.0     12.0    -.166667                                
+                  145-        GRID    10604           2.0     12.0    -.166667                                
+                  146-        GRID    10605           4.0     12.0    -.166667                                
+                  147-        GRID    10700           0.0     14.0    0.166667                                
+                  148-        GRID    10701           2.0     14.0    0.166667                                
+                  149-        GRID    10702           4.0     14.0    0.166667                                
+                  150-        GRID    10703           0.0     14.0    -.166667                                
+                  151-        GRID    10704           2.0     14.0    -.166667                                
+                  152-        GRID    10705           4.0     14.0    -.166667                                
+                  153-        GRID    10800           0.0     16.0    0.166667                                
+                  154-        GRID    10801           2.0     16.0    0.166667                                
+                  155-        GRID    10802           4.0     16.0    0.166667                                
+                  156-        GRID    10803           0.0     16.0    -.166667                                
+                  157-        GRID    10804           2.0     16.0    -.166667                                
+                  158-        GRID    10805           4.0     16.0    -.166667                                
+                  159-        GRID    10900           0.0     18.0    0.166667                                
+                  160-        GRID    10901           2.0     18.0    0.166667                                
+                  161-        GRID    10902           4.0     18.0    0.166667                                
+                  162-        GRID    10903           0.0     18.0    -.166667                                
+                  163-        GRID    10904           2.0     18.0    -.166667                                
+                  164-        GRID    10905           4.0     18.0    -.166667                                
+                  165-        GRID    11000           0.0     20.0    0.166667                                
+                  166-        GRID    11001           2.0     20.0    0.166667                                
+                  167-        GRID    11002           4.0     20.0    0.166667                                
+                  168-        GRID    11003           0.0     20.0    -.166667                                
+                  169-        GRID    11004           2.0     20.0    -.166667                                
+                  170-        GRID    11005           4.0     20.0    -.166667                                
+                  171-        MAT1    1       1.498E+9        0.33    1.E-4                                   
+                  172-        PARAM   AUTOSPC 1                                                               
+                  173-        PARAM   GRDPNT  0                                                               
+                  174-        PSHELL  1       1       .0155   1               1                               
+                  175-        PSHELL  2       1       6.E-4   1               1                               
+                  176-        PSHELL  3       1       .0889   1               1                               
+                  177-        PSHELL  4       1       .0347   1               1                               
+                  178-        SPC1    91000   123456  10000   10002   10003   10004   10005                   
+                  179-        SPC1    91001   123456  10001                                                   
+                  180-        SPCADD  800     91000   91001                                                   
+                              ENDDATA
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE    10
+                                                                                                                                    
+0                                                                                                                                   
+0*** USER INFORMATION MESSAGES FROM RESEQUENCING PROCESSOR - BANDIT     (CRI= 1,  MTH= 3,  MPC= 0,  DEP=-1,  PCH=-1)
+
+                               BEFORE RESEQUENCING - - -
+                                        BANDWIDTH           10
+                                        PROFILE            549
+                                        MAX WAVEFRONT       10
+                                        AVG WAVEFRONT    8.318
+                                        RMS WAVEFRONT    8.536
+                                        RMS BANDWIDTH    8.568
+
+                               AFTER RESEQUENCING BY GIBBS-POOLE-STOCKMEYER (GPS) ALGORITHM - - -
+                                        BANDWIDTH            9
+                                        PROFILE            527
+                                        MAX WAVEFRONT        9
+                                        AVG WAVEFRONT    7.985
+                                        RMS WAVEFRONT    8.162
+                                        RMS BANDWIDTH    8.188
+
+
+                                                     *** BANDIT SUMMARY ***
+
+                                                                        BEFORE     AFTER
+                                        BANDWIDTH (B)                       10         9
+                                        PROFILE (P)                        549       527
+                                        MAXIMUM WAVEFRONT (C-MAX)           10         9
+                                        AVERAGE WAVEFRONT (C-AVG)        8.318     7.985
+                                        RMS WAVEFRONT (C-RMS)            8.536     8.162
+                                        RMS BANDWITCH (B-RMS)            8.568     8.188
+                                        NUMBER OF GRID POINTS (N)                     66
+                                        NUMBER OF ELEMENTS (NON-RIGID)               102
+                                        NUMBER OF RIGID ELEMENTS PROCESSED*            0
+                                        NUMBER OF MPC  EQUATIONS PROCESSED*            0
+                                        NUMBER OF COMPONENTS                           1
+                                        MAXIMUM NODAL DEGREE                          13
+                                        MINIMUM NODAL DEGREE                           6
+                                        NUMBER OF UNIQUE EDGES                       321
+                                        MATRIX DENSITY, PERCENT                   16.253
+                                        NUMBER OF POINTS OF ZERO DEGREE                0
+                                        BANDIT OPEN CORE                        ********
+                                        CRITERION*                         RMS WAVEFRONT
+                                        METHOD USED*                                 GPS
+                                        NO. OF SEQGP CARDS GENERATED                  17
+
+                               (* THESE DEFAULT OPTIONS CAN BE OVERRIDDEN BY THE NASTRAN CARD)
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE    11
+                                                                                                                                    
+0                                                                                                                                   
+
+
+                                   S Y S T E M  G E N E R A T E D  S E Q G P  C A R D S
+
+                         SEQGP      10000      61   10001      63   10002      65   10003      62
+                         SEQGP      10004      64   10005      66   10100      55   10101      57
+                         SEQGP      10102      59   10103      56   10104      58   10105      60
+                         SEQGP      10200      49   10201      51   10202      53   10203      50
+                         SEQGP      10204      52   10205      54   10300      43   10301      45
+                         SEQGP      10302      47   10303      44   10304      46   10305      48
+                         SEQGP      10400      37   10401      39   10402      41   10403      38
+                         SEQGP      10404      40   10405      42   10500      31   10501      33
+                         SEQGP      10502      35   10503      32   10504      34   10505      36
+                         SEQGP      10600      25   10601      27   10602      29   10603      26
+                         SEQGP      10604      28   10605      30   10700      19   10701      21
+                         SEQGP      10702      23   10703      20   10704      22   10705      24
+                         SEQGP      10800      13   10801      15   10802      17   10803      14
+                         SEQGP      10804      16   10805      18   10900       7   10901       9
+                         SEQGP      10902      11   10903       8   10904      10   10905      12
+                         SEQGP      11000       1   11001       3   11002       5   11003       2
+                         SEQGP      11004       4   11005       6
+0         **NO ERRORS FOUND - EXECUTE NASTRAN PROGRAM**
+0*** USER INFORMATION MESSAGE 238, TURN DIAG 38 ON FOR ADDITIONAL ELEMENT PROCESSING INFORMATION
+
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION CONM2    ELEMENTS (ELEMENT TYPE  30) STARTING WITH ID     1004
+0*** USER INFORMATION MESSAGE 3113,
+     EMG MODULE PROCESSING DOUBLE PRECISION QUAD4    ELEMENTS (ELEMENT TYPE  64) STARTING WITH ID        1
+0*** USER WARNING MESSAGE 3041
+0EXTERNAL GRID POINT        0 DOES NOT EXIST OR IS NOT A GEOMETRIC GRID POINT.
+     THE BASIC ORIGIN WILL BE USED.
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE    12
+                                                                                                                                    
+0                                                                                                                                   
+ 
+ 
+                           O U T P U T   F R O M   G R I D   P O I N T   W E I G H T   G E N E R A T O R
+0                                                     REFERENCE POINT =        0
+ 
+ 
+                                     MO - RIGID BODY MASS MATRIX IN BASIC COORDINATE SYSTEM
+                ***                                                                                             ***
+                *  3.28719586D+01  0.00000000D+00  0.00000000D+00  0.00000000D+00  5.47861088D+00 -3.65243585D+02 *
+                *  0.00000000D+00  3.28719586D+01  0.00000000D+00 -5.47861088D+00  0.00000000D+00  9.61171158D+01 *
+                *  0.00000000D+00  0.00000000D+00  3.28719586D+01  3.65243585D+02 -9.61171158D+01  0.00000000D+00 *
+                *  0.00000000D+00 -5.47861088D+00  3.65243585D+02  4.96822546D+03 -1.06796716D+03 -1.60194316D+01 *
+                *  5.47861088D+00  0.00000000D+00 -9.61171158D+01 -1.06796716D+03  3.85380742D+02 -6.08734542D+01 *
+                * -3.65243585D+02  9.61171158D+01  0.00000000D+00 -1.60194316D+01 -6.08734542D+01  5.35177998D+03 *
+                ***                                                                                             ***
+                                        S - TRANSFORMATION MATRIX FOR SCALAR MASS PARTITION
+                                        ***                                             ***
+                                        *  1.00000000D+00  0.00000000D+00  0.00000000D+00 *
+                                        *  0.00000000D+00  1.00000000D+00  0.00000000D+00 *
+                                        *  0.00000000D+00  0.00000000D+00  1.00000000D+00 *
+                                        ***                                             ***
+                         DIRECTION
+                    MASS AXIS SYSTEM (S)       MASS                 X-C.G.           Y-C.G.           Z-C.G.
+                            X            3.287195857D+01      0.000000000D+00  1.111109898D+01  1.666651795D-01
+                            Y            3.287195857D+01      2.923985060D+00  0.000000000D+00  1.666651795D-01
+                            Z            3.287195857D+01      2.923985060D+00  1.111109898D+01  0.000000000D+00
+
+                                                 I(S) - INERTIAS RELATIVE TO C.G. 
+                                      ***                                                 ***
+                                      *  9.090547402D+02  3.685265212D-04  5.527908842D-05  *
+                                      *  3.685265212D-04  1.034226376D+02  6.647351921D-05  *
+                                      *  5.527908842D-05  6.647351921D-05  1.012477338D+03  *
+                                      ***                                                 ***
+                                                      I(Q) - PRINCIPAL INERTIAS
+                                      ***                                                 ***
+                                      *  9.090547402D+02                                    *
+                                      *                   1.034226376D+02                   *
+                                      *                                    1.012477338D+03  *
+                                      ***                                                 ***
+                                            Q - TRANSFORMATION MATRIX - I(Q) = QT*I(S)*Q
+                                      ***                                                 ***
+                                      *  1.000000000D+00  0.000000000D+00  0.000000000D+00  *
+                                      *  0.000000000D+00  1.000000000D+00  0.000000000D+00  *
+                                      *  0.000000000D+00  0.000000000D+00  1.000000000D+00  *
+                                      ***                                                 ***
+                        0 ROOTS BELOW   3.947841E-03
+0*** USER WARNING MESSAGE 2399
+     ONLY THE FIRST   20 EIGENSOLUTIONS CLOSEST TO THE SHIFT POINT (F1 OR ZERO) PASS THE FEER ACCURACY TEST FOR EIGENVECTORS.
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE    13
+                                                                                                                                    
+
+                                                                                                                                    
+
+
+
+
+0*** USER INFORMATION MESSAGE 2392
+       20 MORE ACCURATE EIGENSOLUTIONS THAN THE   10 REQUESTED HAVE BEEN FOUND.
+     USE DIAG 16 TO DETERMINE ERROR BOUNDS
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE    14
+                                                                                                                                    
+0                                                                                                                                   
+ 
+ 
+                              E I G E N V A L U E   A N A L Y S I S   S U M M A R Y         (FEER METHOD)
+0
+0                                       NUMBER OF EIGENVALUES EXTRACTED  . . . . . .        30
+0                                       NUMBER OF STARTING POINTS USED . . . . . . .         1
+0                                       NUMBER OF STARTING POINT MOVES . . . . . . .         0
+0                                       NUMBER OF TRIANGULAR DECOMPOSITIONS  . . . .         1
+0                                       TOTAL NUMBER OF VECTOR ITERATIONS  . . . . .        29
+
+0                                       REASON FOR TERMINATION . . . . . . . . . . .         0*
+
+0                                       LARGEST OFF-DIAGONAL MODAL MASS TERM . . . .  0.00E+00
+0                                                                              . . .         0
+                                                  MODE PAIR . . . . . . . . . .
+                                                                               . . .         0
+0                                       NUMBER OF OFF-DIAGONAL MODAL MASS
+                                             TERMS FAILING CRITERION . . . . . . . .         0
+
+0                                       (* NORMAL TERMINATION              
+                                         SEE NASTRAN U.M. VOL II, SECTION 2.3.3)
+1                                                                           /    95 INTEL LINUX NASTRAN    / APR 13, 18 / PAGE    15
+                                                                                                                                    
+0                                                                                                                                   
+ 
+                                              R E A L   E I G E N V A L U E S
+
+   MODE    EXTRACTION       EIGENVALUE            RADIAN              CYCLIC           GENERALIZED         GENERALIZED
+    NO.       ORDER                              FREQUENCY           FREQUENCY            MASS              STIFFNESS
+
+        1         1        2.268516E+02        1.506159E+01        2.397127E+00        9.206867E+00        2.088593E+03             
+        2         2        2.954092E+03        5.435156E+01        8.650319E+00        5.039116E+00        1.488601E+04             
+        3         3        6.901954E+03        8.307800E+01        1.322227E+01        9.217894E+00        6.362147E+04             
+        4         4        1.003522E+04        1.001760E+02        1.594350E+01        9.749870E+00        9.784214E+04             
+        5         5        2.295580E+04        1.515117E+02        2.411384E+01        6.763893E+00        1.552706E+05             
+        6         6        3.707995E+04        1.925615E+02        3.064712E+01        8.210618E+00        3.044493E+05             
+        7         7        5.142515E+04        2.267711E+02        3.609175E+01        1.488474E+01        7.654502E+05             
+        8         8        7.123516E+04        2.668992E+02        4.247832E+01        1.724646E+01        1.228554E+06             
+        9         9        8.871212E+04        2.978458E+02        4.740363E+01        4.022695E+00        3.568618E+05             
+       10        10        1.520827E+05        3.899778E+02        6.206689E+01        5.671128E+00        8.624803E+05             
+       11        11        2.019903E+05        4.494333E+02        7.152953E+01        6.460727E+00        1.305004E+06             
+       12        12        2.480595E+05        4.980557E+02        7.926802E+01        1.785712E+01        4.429628E+06             
+       13        13        7.051391E+05        8.397256E+02        1.336465E+02        1.807645E+01        1.274641E+07             
+       14        14        1.174739E+06        1.083854E+03        1.725007E+02        2.802093E+01        3.291726E+07             
+       15        15        2.452311E+06        1.565986E+03        2.492344E+02        6.527854E+00        1.600833E+07             
+       16        16        2.804541E+06        1.674676E+03        2.665330E+02        5.058760E+00        1.418750E+07             
+       17        17        3.508131E+06        1.873000E+03        2.980973E+02        5.134032E+00        1.801086E+07             
+       18        18        3.726713E+06        1.930470E+03        3.072438E+02        3.530601E+00        1.315754E+07             
+       19        19        4.091291E+06        2.022694E+03        3.219218E+02        3.466312E+00        1.418169E+07             
+       20        20        4.499546E+06        2.121213E+03        3.376016E+02        1.161214E+01        5.224934E+07             
+       21        21        6.344381E+06        2.518805E+03        4.008803E+02        1.746055E+00        1.107764E+07             
+       22        22        6.904444E+06        2.627631E+03        4.182004E+02        1.179226E+00        8.141900E+06             
+       23        23        8.234498E+06        2.869582E+03        4.567081E+02        1.642296E+00        1.352349E+07             
+       24        24        9.089473E+06        3.014875E+03        4.798323E+02        1.735032E+00        1.577053E+07             
+       25        25        9.494870E+06        3.081375E+03        4.904160E+02        1.687796E+00        1.602541E+07             
+       26        26        1.054317E+07        3.247025E+03        5.167801E+02        1.918898E+00        2.023127E+07             
+       27        27        1.171738E+07        3.423066E+03        5.447978E+02        1.844470E+00        2.161235E+07             
+       28        28        1.318931E+07        3.631708E+03        5.780043E+02        3.525952E+00        4.650486E+07             
+       29        29        1.453647E+07        3.812672E+03        6.068057E+02        8.509039E-01        1.236914E+07             
+       30        30        4.408727E+10        2.099697E+05        3.341771E+04        2.616043E-05        1.153342E+06             
+
+
+
+
+                                        * * * END OF JOB * * *
+1
+ JOB TITLE =                                                                     
+ DATE:  4/13/18
+ END TIME:  9:56:32
+ TOTAL WALL CLOCK TIME      0 SEC.
+ 
