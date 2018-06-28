@@ -27,7 +27,7 @@ To run the python codes for each scaling ratio:
 	
 	db.keys()
 	
-	db[rank0:COBYLA|the last iteration number]['Unkowns']['MAC']
+	db[rank0:COBYLA|the last iteration number]['Unknowns']['MAC']
 	
 	
 9. That's all!
