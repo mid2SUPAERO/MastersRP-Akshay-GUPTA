@@ -20,9 +20,14 @@ To run the python codes for each scaling ratio:
 6. Go to the folder directory to read the output file "nastran_dynamic.out" for getting the frequency and mass values for scaled model
 7. Go to the folder directory to read the output file "nastran_dynamic.inp" to get the optimized thickness and concentrated mass values for the scaled model
 8. To get the MAC matrix type the following command in the python console: *make sure you are in the right directory*
+	
 	import sqlitedict
+	
 	db=sqlitdict.SqliteDict('modal_optim_COBYLA','iterations')
+	
 	db.keys()
+	
 	db[rank0:COBYLA|the last iteration number]['Unkowns']['MAC']
+	
 	
 9. That's all!
