@@ -1,5 +1,6 @@
 # MastersRP-Akshay-GUPTA
 Scaled Aircraft in Aeroelastic Similarity - Flutter Optimization
+
 This folder contains the following folders:
 
 1. Garteur Model: All the python codes for all the scale ratios are inside it
